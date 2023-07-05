@@ -35,14 +35,19 @@ body {
     margin-right:20px;
 }
 h2 {
-    color: white;
+    color: rgb(209, 199, 9);
     padding: 14px;
     margin: 20px;
 }
 
 a {
+ 
     text-decoration: none;
     color: white;
+}
+
+.nav-bar ul li a {
+    color: rgb(209, 199, 9);
 }
 
 .container {
@@ -67,6 +72,7 @@ width: 450px;
 
 .left p {
     margin-top: 20px;
+    line-height: 150%;
 }
 
 .left {
@@ -87,7 +93,8 @@ width: 450px;
 .container .right {
     display:flex;
     
-    background-color: grey;
+    background-image: url('https://images.pexels.com/photos/5807796/pexels-photo-5807796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size:cover;
     text-align: center;
     justify-content: center;
     height:200px;
@@ -147,11 +154,14 @@ width: 450px;
 }
 
 .card-holder-1 {
+   
     flex:0 0 150px;
     height:150px;
     width:auto;
-    border: 5px solid rgb(89, 158, 243);
+    
     border-radius: 6px;
+    background-image: url("https://images.pexels.com/photos/5807796/pexels-photo-5807796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
 }
 
 .subtext {
@@ -188,7 +198,9 @@ width: 450px;
     flex:0 0 150px;
     height:150px;
     width:auto;
-    border: 5px solid rgb(89, 158, 243);
+    background-image: url('https://images.pexels.com/photos/7932110/pexels-photo-7932110.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-size: cover;
+
     border-radius: 6px;
 }
 
@@ -222,7 +234,8 @@ width: 450px;
     flex:0 0 150px;
     height:150px;
     width:auto;
-    border: 5px solid rgb(89, 158, 243);
+    background-image: url('https://images.pexels.com/photos/260409/pexels-photo-260409.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-size: cover;
     border-radius: 6px;
 }
 
@@ -256,7 +269,8 @@ width: 450px;
     flex:0 0 150px;
     height:150px;
     width:auto;
-    border: 5px solid rgb(89, 158, 243);
+    background-image: url('https://images.pexels.com/photos/1289118/pexels-photo-1289118.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-size: cover;
     border-radius: 6px;
 }
 
