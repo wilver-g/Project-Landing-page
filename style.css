@@ -1,0 +1,360 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+   
+    min-height:200vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.nav-bar {
+    background-color: #1f2937;
+   flex-wrap: nowrap;
+    display: flex;
+    height: 60px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+.nav-bar ul  {
+    flex-wrap: nowrap;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap:20px;
+    padding:12px;
+    float:right;
+    margin-right:20px;
+}
+h2 {
+    color: white;
+    padding: 14px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    background-color: #1f2937;
+    display:flex;
+    flex: 1;
+  
+    width:100%;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+
+.container .left {
+    color:white;
+   
+    height:200px;
+
+width: 450px;
+}
+
+.left p {
+    margin-top: 20px;
+}
+
+.left {
+    padding: 10px 5px;
+}
+
+.left button {
+    width: 100px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(54, 104, 241);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.container .right {
+    display:flex;
+    
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    height:200px;
+    width: 450px;
+}
+.right p {
+    color: white;
+    align-self: center;
+}
+
+.testimony {
+    flex:1;
+   
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    
+   align-items: center;
+}
+
+.cards h1 {
+    margin:20px;
+    flex:0;
+    
+}
+
+.card-list {
+    box-sizing: border-box;
+    flex:1;
+    display: flex;
+    
+   gap:35px;
+   
+    justify-content: center;
+    
+  
+    
+    
+}
+
+.card-container-1 {
+    display: flex;
+   
+    width:150px;
+    height: 200px;
+    flex-direction: column;
+    gap:3px;
+
+    
+
+
+
+}
+
+.card-holder-1 {
+    flex:0 0 150px;
+    height:150px;
+    width:auto;
+    border: 5px solid rgb(89, 158, 243);
+    border-radius: 6px;
+}
+
+.subtext {
+    flex:1;
+    display: flex;
+    
+    justify-content: center;
+    padding:5px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    
+}
+
+
+
+
+.card-container-2 {
+    display: flex;
+   
+    width:150px;
+    height: 200px;
+    flex-direction: column;
+    gap:3px;
+    
+
+    
+
+
+
+}
+
+.card-holder-2 {
+    flex:0 0 150px;
+    height:150px;
+    width:auto;
+    border: 5px solid rgb(89, 158, 243);
+    border-radius: 6px;
+}
+
+.subtext-2 {
+    flex:1;
+    display: flex;
+    
+    justify-content: center;
+    padding:5px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    
+}
+
+.card-container-3 {
+    display: flex;
+   
+    width:150px;
+    height: 200px;
+    flex-direction: column;
+    gap:3px;
+
+    
+
+
+
+}
+
+.card-holder-3 {
+    flex:0 0 150px;
+    height:150px;
+    width:auto;
+    border: 5px solid rgb(89, 158, 243);
+    border-radius: 6px;
+}
+
+.subtext-3 {
+    flex:1;
+    display: flex;
+    
+    justify-content: center;
+    padding:5px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    
+}
+
+.card-container-4 {
+    display: flex;
+   
+    width:150px;
+    height: 200px;
+    flex-direction: column;
+    gap:3px;
+
+    
+
+
+
+}
+
+.card-holder-4 {
+    flex:0 0 150px;
+    height:150px;
+    width:auto;
+    border: 5px solid rgb(89, 158, 243);
+    border-radius: 6px;
+}
+
+.subtext-4 {
+    flex:1;
+    display: flex;
+    
+    justify-content: center;
+    padding:5px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    
+}
+
+.testimony {
+    display:flex;
+    height:auto;
+    background-color: rgb(223, 217, 217);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.testimony .paragraph {
+    display:flex;
+    width:80%;
+    flex-wrap: wrap;
+    
+    font-size: 35px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 150%;
+    
+    
+}
+
+.testimony .author {
+    display: flex;
+    width: 80%;
+    
+    justify-content: flex-end;
+    font-weight: bolder;
+   
+
+}
+
+.ads {
+    display: flex;
+    flex: 1;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ad-card {
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    height: 80px;
+    width:800px;
+    flex: 0 0 auto;
+    background-color: rgb(0, 115, 255);
+    border-radius: 1.5em;
+    color: white;
+}
+
+.ad-card div {
+    padding: 10px 20px;
+}
+
+.ad-card button {
+    color:white;
+    display:flex;
+    padding: 10px 20px;
+    height:35px;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.ad-card button:hover {
+    background-color: white;;
+    color:black;
+}
+
+footer {
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: whitesmoke;
+}
+
