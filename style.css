@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Tektur:wght@500&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -15,10 +17,12 @@ body {
 }
 
 .nav-bar {
-    background-color: #1f2937;
+    position:sticky;
+    top:0;
+    background-color: #22272d;
    flex-wrap: nowrap;
     display: flex;
-    height: 100px;
+    height: 80px;
     align-items:center;
     justify-content: space-between;
 }
@@ -36,12 +40,24 @@ body {
 }
 .nav-bar .logo{
     border:1px solid white;
-    background-image: url("https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/308593230_412943384289098_1445787731723414129_n.jpg?_nc_cat=102&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeERqUTBpi5Z5DLTwu9rJmE87enVaMVBkQ3t6dVoxUGRDU54i8KpkyNH_QJWjg9cjnXFGit04OPVY2lcEymucPz7&_nc_ohc=oBwxja5dGakAX_ABa_p&_nc_ht=scontent.fmnl4-4.fna&oh=00_AfBckaNJZobsjacZaCKprN-3TmQpWSeG_KSZQhoz0Wuc4A&oe=64B02922");
+    background-image: url('logo.jpg');
     background-size: cover;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
     padding: 14px;
     margin: 20px;
+}
+
+.nav-bar .logo::after {
+    position: relative;
+    left: 80px;
+    width: 250px;
+    display:inline-block;
+    content: 'JRU Electronics Engineering League';
+    color: rgb(209, 199, 9);
+    font-family: 'Handjet', cursive;
+    font-family: 'Tektur', cursive;
 }
 
 a {
@@ -52,9 +68,20 @@ a {
 
 .nav-bar ul li a {
     color: rgb(209, 199, 9);
+    font-family: 'Handjet', cursive;
+    font-family: 'Tektur', cursive;
+    
+    
+}
+
+
+.nav-bar ul li a:hover {
+    color: white;
+   font-size: 120%;
 }
 
 .container {
+    
     background-color: #1f2937;
     display:flex;
     height:400px;
@@ -97,12 +124,13 @@ width: 450px;
 }
 
 .container .right {
+    margin-top: 20px;
     display:flex;
-    
-    background-image: url('https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/308215864_412943380955765_557290352376867056_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&cb=99be929b-3346023f&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGxiWxgoL9aHral7QRZNxj095Err5-Cwsv3kSuvn4LCy-wWjPDWvltllehgFXebcrY-rLFwIOhGygYrzlyU7Iy4&_nc_ohc=KcDi7sfG7zQAX89Wuqi&_nc_ht=scontent.fmnl4-6.fna&oh=00_AfCcmalrRV_aawgLcuS2K9O0J_874b-d4x1S9sFX2lriSw&oe=64AE87CC');
+    background-image: url("cover.jpg");
     background-size:cover;
     text-align: center;
     justify-content: center;
+    border-radius: 5px;
     height:200px;
     width: 450px;
 }
